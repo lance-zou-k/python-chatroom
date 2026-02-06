@@ -1,6 +1,6 @@
 # Python Networking Chatroom
 
-This project implements a multi-client chatroom in Python using both **TCP** and **UDP** protocols. It was developed as part of a university networking assignment to explore socket programming, multithreading, and client-server communication.
+This project implements a multi-client chatroom in Python using both **TCP** and **UDP** protocols. It was developed as to explore socket programming, multithreading, and client-server communication.
 
 ---
 
@@ -26,13 +26,14 @@ This project implements a multi-client chatroom in Python using both **TCP** and
 ---
 
 ## Project Structure
+```
 networking-chatroom/
 ├─ chatroom.py # Main chatroom classes: ServerTCP, ClientTCP, ServerUDP, ClientUDP
 ├─ server.py # Example server runner
 ├─ client.py # Example client runner
 ├─ chatroom.png # Example screenshot of chatroom running
 └─ README.md
-
+```
 ---
 
 ## Usage
@@ -52,5 +53,6 @@ python client.py --name Bob
 ## Demo / Example Run
 
 Below is a screenshot showcasing an example run of the chatroom programs:
+
 
 ![Chatroom Example](chatroom.png)
